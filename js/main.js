@@ -32,7 +32,7 @@ function toggleMenu(){
 /* equal to the browser height.
 ------------------------------------------------------ */
 
-// $('header').css({ 'height': $(window).height() });
+$('.home').css({ 'height': $(window).height() });
 $(window).on('resize', function() {    
      $('body').css({ 'width': $(window).width() })
 });
