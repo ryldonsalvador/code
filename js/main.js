@@ -32,11 +32,12 @@ function toggleMenu(){
 /* equal to the browser height.
 ------------------------------------------------------ */
 
-$('.home').css({ 'height': $(window).height() });
 $(window).on('resize', function() {    
      $('body').css({ 'width': $(window).width() })
 });
 $(window).on('load', function() {    
+    $('.home').css({ 'height': $(window).height() });
+    $('main').css({ 'width': $(window).width() });
     $('body').css({ 'width': $(window).width() })
           // will first fade out the loading animation 
     $("#loader").fadeOut("slow", function(){
