@@ -32,13 +32,14 @@ function toggleMenu(){
 /* equal to the browser height.
 ------------------------------------------------------ */
 
+
 $(window).on('resize', function() {    
      $('body').css({ 'width': $(window).width() })
 });
 $(window).on('load', function() {    
     $('.home').css({ 'height': $(window).height() });
-    $('main').css({ 'width': $(window).width() });
     $('body').css({ 'width': $(window).width() })
+    $('main').css({ 'width': $(window).width() })
           // will first fade out the loading animation 
     $("#loader").fadeOut("slow", function(){
         // will fade out the whole DIV that covers the website.
@@ -122,7 +123,7 @@ $(window).on('scroll', function() {
 /*----------------------------------------------------*/
 /* up button function */
 $('.upButton').click(function(){
-    $("html, body").animate({ scrollTop: 0 });
+    // $("html, body").animate({ scrollTop: 0 });
 });
 
 /*----------------------------------------------------*/

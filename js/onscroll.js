@@ -96,7 +96,7 @@ function scrollReveal() {
     var revealSkills1 =  {
         duration   : 500,
         distance   : '100px',
-        origin     : 'left',
+        origin     : 'bottom',
         reset      : false,
         easing     : 'ease-out',
         delay      : 500,
@@ -104,7 +104,7 @@ function scrollReveal() {
     var revealSkills2 =  {
         duration   : 500,
         distance   : '100px',
-        origin     : 'right',
+        origin     : 'bottom',
         reset      : false,
         easing     : 'ease-out',
         delay      : 500,
@@ -112,7 +112,7 @@ function scrollReveal() {
     var revealSkills3 =  {
         duration   : 500,
         distance   : '100px',
-        origin     : 'left',
+        origin     : 'bottom',
         reset      : false,
         easing     : 'ease-out',
         delay      : 500,
