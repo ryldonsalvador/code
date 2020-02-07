@@ -38,8 +38,8 @@ $(window).on('resize', function() {
 });
 $(window).on('load', function() {    
     $('.home').css({ 'height': $(window).height() });
-    $('body').css({ 'width': $(window).width() })
-    $('main').css({ 'width': $(window).width() })
+//     $('body').css({ 'width': $(window).width() })
+    //$('main').css({ 'width': $(window).width() })
           // will first fade out the loading animation 
     $("#loader").fadeOut("slow", function(){
         // will fade out the whole DIV that covers the website.
