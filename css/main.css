@@ -28,8 +28,8 @@
 .home_greetings {
   font-size: 8rem;
   color: #49c5b6;
-  padding-bottom: .5rem;
-  margin-bottom: .5rem;
+  padding-bottom: 0.5rem;
+  margin-bottom: 0.5rem;
 }
 
 .home_greetings .home_greetings_period {
@@ -40,7 +40,7 @@
   font-size: 6rem;
   padding-bottom: 1rem;
   margin-bottom: 1rem;
-  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-family: "SegoeUI";
 }
 
 .home_name--last {
@@ -49,10 +49,10 @@
 }
 
 .home_job_title {
-  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-family: "SegoeUI";
   font-size: 1.2rem;
-  padding-bottom: .5rem;
-  margin-bottom: .5rem;
+  padding-bottom: 0.5rem;
+  margin-bottom: 0.5rem;
 }
 
 .home_job_title_ampersand {
@@ -66,9 +66,9 @@
   clear: both;
   margin: auto;
   height: 0;
-  margin-top: .5rem;
-  padding-bottom: .5rem;
-  margin-bottom: .5rem;
+  margin-top: 0.5rem;
+  padding-bottom: 0.5rem;
+  margin-bottom: 0.5rem;
 }
 
 .fab {
@@ -80,17 +80,29 @@
   width: 60px;
 }
 
-.home_greetings, .home_name, .line, .home_job_title, .home_job_title_ampersand, .social-icons,
+.home_greetings,
+.home_name,
+.line,
+.home_job_title,
+.home_job_title_ampersand,
+.social-icons,
 .about_profile_pic {
   visibility: hidden;
 }
 
-.home_greetings span, .home_name span, .line span, .home_job_title span, .home_job_title_ampersand span, .social-icons span,
+.home_greetings span,
+.home_name span,
+.line span,
+.home_job_title span,
+.home_job_title_ampersand span,
+.social-icons span,
 .about_profile_pic span {
   visibility: hidden;
 }
 
-.contact_me_content, .myprojects_content, .about_content {
+.contact_me_content,
+.myprojects_content,
+.about_content {
   visibility: hidden;
 }
 
@@ -128,7 +140,7 @@
 .about_me_details {
   padding-top: 3rem;
   margin: 0 10rem 0 10rem;
-  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-family: "SegoeUI";
   line-height: 30px;
 }
 
@@ -155,7 +167,7 @@
 
 .about_skills_content .skills_category {
   padding-top: 1rem;
-  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-family: "SegoeUI";
   text-align: left;
   font-size: 1.2rem;
   font-weight: bolder;
@@ -167,7 +179,7 @@
   padding-top: 1rem;
   padding-bottom: 1rem;
   margin: 0 0 0 2rem;
-  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-family: "SegoeUI";
   text-align: left;
   font-size: 1rem;
   font-weight: bolder;
@@ -185,7 +197,7 @@
   padding-top: 1rem;
   padding-bottom: 1rem;
   font-size: 2rem;
-  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-family: "SegoeUI";
 }
 
 .about_offer_holder {
@@ -406,7 +418,7 @@ ul.menu-nav li.current a {
 .myprojects_sub_header {
   color: #000000;
   font-size: 1rem;
-  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-family: "SegoeUI";
 }
 
 .myprojects_items {
@@ -445,7 +457,7 @@ ul.menu-nav li.current a {
   height: 100%;
   width: 100%;
   margin: 1rem 0;
-  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-family: "SegoeUI";
   text-align: left;
   -webkit-box-align: center;
       -ms-flex-align: center;
@@ -454,15 +466,15 @@ ul.menu-nav li.current a {
 
 .myprojects_item .myprojects_texts .title {
   font-size: 1rem;
-  margin: 0 0 0 .5rem;
+  margin: 0 0 0 0.5rem;
   opacity: 0;
   -webkit-transition: all 0.5s ease-in-out;
   transition: all 0.5s ease-in-out;
 }
 
 .myprojects_item .myprojects_texts .category {
-  font-size: .8rem;
-  margin: .5rem 0 0 .5rem;
+  font-size: 0.8rem;
+  margin: 0.5rem 0 0 0.5rem;
   opacity: 0;
   -webkit-transition: all 0.5s ease-in-out;
   transition: all 0.5s ease-in-out;
@@ -490,7 +502,7 @@ ul.menu-nav li.current a {
 }
 
 .myprojects_item::after {
-  content: '';
+  content: "";
   position: absolute;
   top: 100%;
   left: 0;
@@ -507,7 +519,9 @@ ul.menu-nav li.current a {
   opacity: 0.9;
 }
 
-.myprojects_item:hover .preview_btn, .myprojects_item:hover .title, .myprojects_item:hover .category {
+.myprojects_item:hover .preview_btn,
+.myprojects_item:hover .title,
+.myprojects_item:hover .category {
   opacity: 1;
 }
 
@@ -544,11 +558,11 @@ ul.menu-nav li.current a {
   color: #fff;
   font-size: 1rem;
   padding-bottom: 1rem;
-  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-family: "SegoeUI";
 }
 
 .contact_me_email {
-  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-family: "SegoeUI";
   font-size: 1rem;
   padding-bottom: 1rem;
 }
@@ -586,7 +600,8 @@ ul.menu-nav li.current a {
     text-align: center;
     margin: auto;
   }
-  .about_offer_holder, .myprojects_items {
+  .about_offer_holder,
+  .myprojects_items {
     -ms-grid-columns: (1fr)[1];
         grid-template-columns: repeat(1, 1fr);
   }
@@ -628,11 +643,31 @@ ul.menu-nav li.current a {
   }
 }
 
+/*
+ * Impact
+================================================================================ */
+@font-face {
+  font-family: "impact";
+  src: url("../fonts/impact/impact.ttf");
+  font-weight: normal;
+  font-style: normal;
+}
+
+/*
+ * SegoeUI
+================================================================================ */
+@font-face {
+  font-family: "SegoeUI";
+  src: url("../fonts/SegoeUI/SegoeUI-Regular.ttf");
+  font-weight: normal;
+  font-style: normal;
+}
+
 body {
   background: #000000;
   color: #fff;
   height: 100vh;
-  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  font-family: "impact";
   line-height: 1;
   cursor: default;
 }
@@ -672,7 +707,8 @@ body {
   width: 100%;
 }
 
-.js #preloader, .oldie #preloader {
+.js #preloader,
+.oldie #preloader {
   display: none;
 }
 
@@ -691,7 +727,7 @@ body {
   border-top: 11px solid rgba(255, 255, 255, 0.1);
   border-right: 11px solid rgba(255, 255, 255, 0.1);
   border-bottom: 11px solid rgba(255, 255, 255, 0.1);
-  border-left: 11px solid #FF0077;
+  border-left: 11px solid #ff0077;
   -webkit-animation: load 1.1s infinite linear;
   animation: load 1.1s infinite linear;
   display: block;
@@ -722,7 +758,9 @@ body {
   }
 }
 
-h1, h2, h3 {
+h1,
+h2,
+h3 {
   font-weight: 400;
 }
 
@@ -791,7 +829,7 @@ footer {
   left: 0;
   right: 0;
   position: absolute;
-  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-family: "SegoeUI";
 }
 
 .upButton {
