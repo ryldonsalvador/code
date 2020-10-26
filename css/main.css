@@ -186,7 +186,7 @@
 }
 
 .about_services_text {
-  padding-top: 3rem;
+  padding-top: 5rem;
   padding-bottom: 1rem;
   color: #49c5b6;
   font-size: 3rem;
@@ -411,7 +411,7 @@ ul.menu-nav li.current a {
 .myprojects_header {
   color: #49c5b6;
   font-size: 3rem;
-  padding-top: 3rem;
+  padding-top: 7rem;
   padding-bottom: 1rem;
 }
 
@@ -612,7 +612,7 @@ ul.menu-nav li.current a {
 
 @media screen and (min-width: 768px) {
   .logo_image {
-    width: 100px;
+    width: 88px;
   }
   .menu-btn {
     visibility: hidden;
