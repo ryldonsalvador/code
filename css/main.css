@@ -139,8 +139,11 @@
 }
 
 .about_me_details {
+  width: 60%;
   padding-top: 3rem;
-  margin: 0 10rem 0 10rem;
+  /*margin: 0 10rem 0 10rem;*/
+  margin: auto;
+  left: 0; right: 0;
   font-family: "SegoeUI";
   line-height: 30px;
 }
@@ -597,7 +600,9 @@ ul.menu-nav li.current a {
     font-size: 1rem;
   }
   .about_me_details {
-    margin: 0 2rem 0 2rem;
+    width: 85% !important;
+    text-align: justify;
+    /*margin: 0 2rem 0 2rem;*/
   }
   .about_skills_content .about_skills_content1 .skills_title {
     text-align: center;
