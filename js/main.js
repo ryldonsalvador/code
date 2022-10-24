@@ -66,11 +66,28 @@ sections.waypoint({
         var active_link = $('.nav a[href="#' + active_section.attr("id") + '"]');
         navigation_links.parent().removeClass("current");
         active_link.parent().addClass("current");
+        // window.history.pushState("", "", "/#" + this.element.id);
+        console.log(active_section[0].id)
+
+        window.history.pushState("", "", "/#" + active_section[0].id);
     },
     offset: '50%'
 });
 
+// $(".waypoint-section").each(function () {
+//     var offset = 0;
 
+//     if ($(this).data('offset') !== undefined) {
+//         offset = $(this).data('offset');
+//     }
+
+//     $(this).waypoint({
+//         handler: function (direction) {
+//             window.history.pushState("", "", "/#" + this.element.id);
+//         },
+//         offset: offset
+//     });
+// })
 
 /*----------------------------------------------------*/
 /* Smooth Scrolling
