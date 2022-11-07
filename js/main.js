@@ -69,7 +69,7 @@ sections.waypoint({
         // window.history.pushState("", "", "/#" + this.element.id);
         console.log(active_section[0].id)
 
-        window.history.pushState("", "", "/#" + active_section[0].id);
+        // window.history.pushState("", "", "/#" + active_section[0].id);
     },
     offset: '50%'
 });
