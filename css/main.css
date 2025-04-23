@@ -1,27 +1,40 @@
 * {
   -webkit-box-sizing: border-box;
-          box-sizing: border-box;
+  box-sizing: border-box;
   margin: 0;
   padding: 0;
 }
-
+canvas {
+  margin-top: 1rem;
+  background: white;
+  padding: 10px;
+  border-radius: 8px;
+}
 .home {
   height: 100%;
   padding-top: 30vh;
   overflow: hidden;
   -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
   text-align: center;
-  background: -webkit-gradient(linear, right top, left top, from(rgba(0, 0, 0, 0.8)), to(rgba(0, 0, 0, 0.3))), url("../img/wall-image.jpg") center top;
-  background: linear-gradient(to left, rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.3)), url("../img/wall-image.jpg") center top;
+  background: -webkit-gradient(
+      linear,
+      right top,
+      left top,
+      from(rgba(0, 0, 0, 0.8)),
+      to(rgba(0, 0, 0, 0.3))
+    ),
+    url("../img/wall-image.jpg") center top;
+  background: linear-gradient(to left, rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.3)),
+    url("../img/wall-image.jpg") center top;
   background-size: cover;
 }
 
 .home_content {
   -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
   text-align: center;
 }
 
@@ -108,8 +121,8 @@
 
 .about {
   -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
   text-align: center;
   background-size: cover;
   background: #131313;
@@ -143,7 +156,8 @@
   padding-top: 3rem;
   /*margin: 0 10rem 0 10rem;*/
   margin: auto;
-  left: 0; right: 0;
+  left: 0;
+  right: 0;
   font-family: "SegoeUI";
   line-height: 30px;
 }
@@ -165,7 +179,7 @@
   -ms-grid-column: 1;
   grid-column: 1fr;
   -ms-grid-rows: 1fr;
-      grid-template-rows: 1fr;
+  grid-template-rows: 1fr;
   grid-gap: 2rem;
 }
 
@@ -211,8 +225,8 @@
   display: grid;
   -ms-grid-column: 1;
   grid-column: 1fr;
-  -ms-grid-columns: (1fr)[2];
-      grid-template-columns: repeat(2, 1fr);
+  -ms-grid-columns: (1fr) [2];
+  grid-template-columns: repeat(2, 1fr);
   grid-gap: 2rem;
   width: 70vw;
   margin: 2rem auto 0 auto;
@@ -233,7 +247,13 @@
 
 .columns {
   font-size: 1.5rem;
-  background-image: -webkit-gradient(linear, left bottom, left top, from(#060606), to(#49c5b6));
+  background-image: -webkit-gradient(
+    linear,
+    left bottom,
+    left top,
+    from(#060606),
+    to(#49c5b6)
+  );
   background-image: linear-gradient(to top, #060606, #49c5b6);
 }
 
@@ -293,19 +313,19 @@
 
 .menu-btn_burger.open {
   -webkit-transform: rotate(720deg);
-          transform: rotate(720deg);
+  transform: rotate(720deg);
   background: transparent;
 }
 
 .menu-btn_burger.open::before {
   -webkit-transform: rotate(45deg) translate(5px, 8px);
-          transform: rotate(45deg) translate(5px, 8px);
+  transform: rotate(45deg) translate(5px, 8px);
 }
 
 .menu-btn_burger.open::after {
   width: 28px;
   -webkit-transform: rotate(-45deg) translate(3px, -7px);
-          transform: rotate(-45deg) translate(3px, -7px);
+  transform: rotate(-45deg) translate(3px, -7px);
 }
 
 .nav {
@@ -328,39 +348,39 @@
   display: flex;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
-      -ms-flex-flow: column wrap;
-          flex-flow: column wrap;
+  -ms-flex-flow: column wrap;
+  flex-flow: column wrap;
   -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
   -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
   overflow: hidden;
   background: #000000;
   list-style-type: none;
   padding-right: 0;
   -webkit-transform: translateY(-100%);
-          transform: translateY(-100%);
+  transform: translateY(-100%);
   -webkit-transition: all 0.5s ease-in-out;
   transition: all 0.5s ease-in-out;
 }
 
 .nav .menu-nav.open {
   -webkit-transform: translateY(0);
-          transform: translateY(0);
+  transform: translateY(0);
 }
 
 .nav .menu-nav_item {
   -webkit-transform: translateX(100vw);
-          transform: translateX(100vw);
+  transform: translateX(100vw);
   -webkit-transition: all 0.5s ease-in-out;
   transition: all 0.5s ease-in-out;
 }
 
 .nav .menu-nav_item.open {
   -webkit-transform: translateX(0);
-          transform: translateX(0);
+  transform: translateX(0);
 }
 
 .nav .menu-nav_item.active > a {
@@ -383,22 +403,22 @@
 
 .menu-nav_item:nth-child(1) {
   -webkit-transition-delay: 0.25s;
-          transition-delay: 0.25s;
+  transition-delay: 0.25s;
 }
 
 .menu-nav_item:nth-child(2) {
   -webkit-transition-delay: 0.35s;
-          transition-delay: 0.35s;
+  transition-delay: 0.35s;
 }
 
 .menu-nav_item:nth-child(3) {
   -webkit-transition-delay: 0.45s;
-          transition-delay: 0.45s;
+  transition-delay: 0.45s;
 }
 
 .menu-nav_item:nth-child(4) {
   -webkit-transition-delay: 0.55s;
-          transition-delay: 0.55s;
+  transition-delay: 0.55s;
 }
 
 ul.menu-nav li.current a {
@@ -407,8 +427,8 @@ ul.menu-nav li.current a {
 
 .myprojects {
   -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
   text-align: center;
   background-size: cover;
   background: #ebeeee;
@@ -432,8 +452,8 @@ ul.menu-nav li.current a {
   display: grid;
   -ms-grid-column: 1;
   grid-column: 1fr;
-  -ms-grid-columns: (1fr)[2];
-      grid-template-columns: repeat(2, 1fr);
+  -ms-grid-columns: (1fr) [2];
+  grid-template-columns: repeat(2, 1fr);
   grid-gap: 2rem;
   width: 90vw;
   margin: 2rem auto 0 auto;
@@ -466,8 +486,8 @@ ul.menu-nav li.current a {
   font-family: "SegoeUI";
   text-align: left;
   -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
 }
 
 .myprojects_item .myprojects_texts .title {
@@ -535,7 +555,7 @@ ul.menu-nav li.current a {
   -webkit-transition: all 0.5s ease-in-out;
   transition: all 0.5s ease-in-out;
   -webkit-transform: scale(1.3);
-          transform: scale(1.3);
+  transform: scale(1.3);
 }
 
 .fas {
@@ -544,12 +564,18 @@ ul.menu-nav li.current a {
 
 .contact_me {
   -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
   text-align: center;
   padding-top: 2rem;
   background-size: cover;
-  background-image: -webkit-gradient(linear, left bottom, left top, from(#060606), to(#49c5b6));
+  background-image: -webkit-gradient(
+    linear,
+    left bottom,
+    left top,
+    from(#060606),
+    to(#49c5b6)
+  );
   background-image: linear-gradient(to top, #060606, #49c5b6);
 }
 
@@ -610,8 +636,8 @@ ul.menu-nav li.current a {
   }
   .about_offer_holder,
   .myprojects_items {
-    -ms-grid-columns: (1fr)[1];
-        grid-template-columns: repeat(1, 1fr);
+    -ms-grid-columns: (1fr) [1];
+    grid-template-columns: repeat(1, 1fr);
   }
   .myprojects_item .myprojects_texts .title {
     font-size: 1rem;
@@ -631,7 +657,7 @@ ul.menu-nav li.current a {
   .nav .menu-nav {
     display: block;
     -webkit-transform: translateY(0);
-            transform: translateY(0);
+    transform: translateY(0);
     height: 100%;
     background: transparent;
     text-align: right;
@@ -689,7 +715,7 @@ body {
   -webkit-user-select: none;
   -moz-user-select: none;
   -ms-user-select: none;
-      user-select: none;
+  user-select: none;
 }
 
 .pace-inactive {
@@ -827,8 +853,8 @@ footer {
   left: 0;
   text-align: center;
   -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
   color: #b974c5;
   height: 10vh;
   width: 100%;
