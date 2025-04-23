@@ -10,17 +10,6 @@ let showMenu = false;
 
 menuBtn.addEventListener("click", toggleMenu);
 
-const canvas = document.getElementById("qrCanvas");
-const currentURL = window.location.href;
-
-QRCode.toCanvas(canvas, currentURL, { width: 200 }, function (error) {
-  if (error) {
-    console.error("QR generation failed:", error);
-  } else {
-    console.log("QR generated for:", currentURL);
-  }
-});
-
 function toggleMenu() {
   if (!showMenu) {
     hamburger.classList.add("open");

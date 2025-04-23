@@ -4,12 +4,7 @@
   margin: 0;
   padding: 0;
 }
-canvas {
-  margin-top: 1rem;
-  background: white;
-  padding: 10px;
-  border-radius: 8px;
-}
+
 .home {
   height: 100%;
   padding-top: 30vh;
